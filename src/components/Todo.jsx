@@ -1,4 +1,5 @@
 import React from 'react'
+import todo_icon from
 
 const Todo = () => {
     return (
@@ -7,6 +8,7 @@ const Todo = () => {
             {/*-------title-----------*/}
 
                 <div className='flex items-center mt-7 gap-2'>
+                    <img src="" alt="" />
                     <h1 className='text-3xl font-semibold'>To-Do List</h1>
                 </div>
         </div>
